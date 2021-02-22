@@ -1,0 +1,65 @@
+html {
+    font-size: 150%;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.calculator {
+    box-shadow: 0 0 25px 0;
+}
+
+.calc_keys{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    cursor: pointer;
+    grid-gap: 0px;
+    background: darkgrey;
+    grid-gap: 2px;
+    
+    
+    
+}
+
+.display {
+    background: grey;
+    padding: 0.75rem 1rem;
+    width: 12.25rem;
+    text-align: right;
+    color: coral;
+    font-size: calc(1rem*1.2*1.2);
+}
+
+
+.grid {
+    
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.equal {
+    background: coral;
+}
+
+.equal:hover,
+.equal:focus {
+    background: #b12f2f;
+}
+
+.times, .divide, .plus, .minus {
+    background: lightgray;
+} 
+
+
